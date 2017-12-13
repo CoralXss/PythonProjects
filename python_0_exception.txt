@@ -1,0 +1,35 @@
+Python 常见异常说明：
+
+1. IndentationError: unexpected indent  Python有严格的格式校验，一般出现此异常，表示没有缩进。
+
+2. 
+
+
+
+问题：
+
+1. 取 list tuple dict 长度、某个元素；
+2. str 和 int float 转化；
+	int -> str : int('123') = 123  str(123) = '123'
+3. 如何判断是字符串？
+
+说明：
+1. 函数参数
+1）可变参数：*params  参数的个数可变，在 list 或 tuple 前添加 * 可以将其变成可变参数传入，这些可变参数在函数调用时自动组装成一个 tuple，此种写法很常见。
+
+2）关键字参数： **kw  允许传入 0-n 个含参数名的参数，这些关键字参数在函数内部自动组装成一个 dict. 
+
+
+
+3. Python 内置函数：https://docs.python.org/3/library/functions.html
+
+
+
+
+
+
+
+
+
+
+
